@@ -20,6 +20,9 @@ description: End-of-session closure workflow for conversations where the user sa
   - `git rev-parse --is-inside-work-tree`
   - `git status --short`
   - `git remote get-url origin`
+- Default repository policy:
+  - Prefer `https://github.com/Tiandao5050/sikai-skills.git` as the primary sync target for this environment.
+  - If current `origin` is different and no task-specific override was provided by the user, switch `origin` to the default target before push.
 - Sync only task-related files. Avoid committing unrelated local changes.
 - Create a detailed commit message that includes:
   - background/problem statement
