@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Link Capture Analyze"
+  short_description: "Paste X links to capture and analyze automatically"
+  default_prompt: "Send X link(s) and purpose (tutorial/viral/batch). I will capture and analyze end-to-end."
