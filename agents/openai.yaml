@@ -1,0 +1,4 @@
+interface:
+  display_name: "结束对话并生成推文"
+  short_description: "Handle close-chat trigger with GitHub sync and tweet generation"
+  default_prompt: "当用户说“结束当前对话并生成推文”时，先判断任务是否已完成；完成则执行GitHub同步并输出详细推文，未完成则只输出进度推文。"
